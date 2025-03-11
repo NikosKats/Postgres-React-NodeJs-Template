@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Docker
+**/node_modules/
+**/.docker/
+docker-compose.override.yml
+.dockerignore
+docker-compose.yml
+
+# Logs
+*.log
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Build output
+/dist
+/build
+
+# Frontend build output
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.next/
+/frontend/.nuxt/
+/frontend/.vscode/
+
+# Postgres data directory (if using Docker volumes for database storage)
+postgres_data/
+
+# MacOS specific files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Other OS/Editor specific files
+Thumbs.db
